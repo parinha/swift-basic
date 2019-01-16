@@ -126,6 +126,9 @@ This is a login flow.</string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Phone #"/>
+                                <connections>
+                                    <segue destination="KmT-TB-0oR" kind="show" id="XQy-gF-fA7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhm-5P-DbJ">
                                 <rect key="frame" x="20" y="480" width="374" height="52"/>
@@ -218,6 +221,58 @@ This is a login flow.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8lu-Sm-JGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1655.072463768116" y="18.75"/>
+        </scene>
+        <!--Enter Phone View Controller-->
+        <scene sceneID="cU6-tf-vJI">
+            <objects>
+                <viewController id="KmT-TB-0oR" customClass="EnterPhoneViewController" customModule="LoginFlow" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q6i-Nd-Um0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your phone #" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEF-X2-n8F">
+                                <rect key="frame" x="20" y="128" width="374" height="44"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="+855-12-123-1234" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gWf-60-yds">
+                                <rect key="frame" x="20" y="218.5" width="374" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="h62-iY-Loi"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone #" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McB-SA-foW">
+                                <rect key="frame" x="20" y="202" width="374" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                <color key="textColor" red="0.70307716620000005" green="0.1608241983" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UdJ-TM-AYg" firstAttribute="trailing" secondItem="McB-SA-foW" secondAttribute="trailing" constant="20" id="49l-cc-RIB"/>
+                            <constraint firstItem="McB-SA-foW" firstAttribute="top" secondItem="bEF-X2-n8F" secondAttribute="bottom" constant="30" id="Cjd-Bz-uUy"/>
+                            <constraint firstItem="UdJ-TM-AYg" firstAttribute="trailing" secondItem="bEF-X2-n8F" secondAttribute="trailing" constant="20" id="ETi-lC-Zd7"/>
+                            <constraint firstItem="gWf-60-yds" firstAttribute="centerX" secondItem="q6i-Nd-Um0" secondAttribute="centerX" id="JHm-nR-tTw"/>
+                            <constraint firstItem="bEF-X2-n8F" firstAttribute="leading" secondItem="UdJ-TM-AYg" secondAttribute="leading" constant="20" id="bX9-TF-tGE"/>
+                            <constraint firstItem="McB-SA-foW" firstAttribute="leading" secondItem="UdJ-TM-AYg" secondAttribute="leading" constant="20" id="g7H-cs-R0m"/>
+                            <constraint firstItem="UdJ-TM-AYg" firstAttribute="trailing" secondItem="gWf-60-yds" secondAttribute="trailing" constant="20" id="jIj-XM-uVc"/>
+                            <constraint firstItem="bEF-X2-n8F" firstAttribute="centerX" secondItem="q6i-Nd-Um0" secondAttribute="centerX" id="qYM-8w-b42"/>
+                            <constraint firstItem="McB-SA-foW" firstAttribute="centerX" secondItem="q6i-Nd-Um0" secondAttribute="centerX" id="sWe-2Q-FED"/>
+                            <constraint firstItem="bEF-X2-n8F" firstAttribute="top" secondItem="UdJ-TM-AYg" secondAttribute="top" constant="40" id="sk7-Z8-KbO"/>
+                            <constraint firstItem="gWf-60-yds" firstAttribute="leading" secondItem="UdJ-TM-AYg" secondAttribute="leading" constant="20" id="viW-dq-Cj6"/>
+                            <constraint firstItem="gWf-60-yds" firstAttribute="top" secondItem="McB-SA-foW" secondAttribute="bottom" id="x7n-ge-wQx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UdJ-TM-AYg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xEz-70-bQ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2634.7826086956525" y="18.75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Hbx-20-cQ7">

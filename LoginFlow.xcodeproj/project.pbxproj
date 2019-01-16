@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7001742921EF242E008B43D5 /* EnterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7001742821EF242E008B43D5 /* EnterPhoneViewController.swift */; };
 		704EF56221EED1F00083FFCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704EF56121EED1F00083FFCB /* AppDelegate.swift */; };
 		704EF56421EED1F00083FFCB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704EF56321EED1F00083FFCB /* WelcomeViewController.swift */; };
 		704EF56721EED1F00083FFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704EF56521EED1F00083FFCB /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7001742821EF242E008B43D5 /* EnterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneViewController.swift; sourceTree = "<group>"; };
 		704EF55E21EED1F00083FFCB /* LoginFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		704EF56121EED1F00083FFCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		704EF56321EED1F00083FFCB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7001742721EF23F9008B43D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7001742821EF242E008B43D5 /* EnterPhoneViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		704EF55521EED1F00083FFCB = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		704EF56021EED1F00083FFCB /* LoginFlow */ = {
 			isa = PBXGroup;
 			children = (
+				7001742721EF23F9008B43D5 /* Controllers */,
 				704EF56121EED1F00083FFCB /* AppDelegate.swift */,
 				704EF56321EED1F00083FFCB /* WelcomeViewController.swift */,
 				704EF56521EED1F00083FFCB /* Main.storyboard */,
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7001742921EF242E008B43D5 /* EnterPhoneViewController.swift in Sources */,
 				704EF57421EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift in Sources */,
 				704EF56421EED1F00083FFCB /* WelcomeViewController.swift in Sources */,
 				704EF56221EED1F00083FFCB /* AppDelegate.swift in Sources */,
