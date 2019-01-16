@@ -12,6 +12,7 @@
 		704EF56721EED1F00083FFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704EF56521EED1F00083FFCB /* Main.storyboard */; };
 		704EF56921EED1F20083FFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704EF56821EED1F20083FFCB /* Assets.xcassets */; };
 		704EF56C21EED1F20083FFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704EF56A21EED1F20083FFCB /* LaunchScreen.storyboard */; };
+		704EF57421EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704EF57321EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		704EF56821EED1F20083FFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704EF56B21EED1F20083FFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		704EF56D21EED1F20083FFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		704EF57321EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLoginOptionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				704EF56821EED1F20083FFCB /* Assets.xcassets */,
 				704EF56A21EED1F20083FFCB /* LaunchScreen.storyboard */,
 				704EF56D21EED1F20083FFCB /* Info.plist */,
+				704EF57321EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift */,
 			);
 			path = LoginFlow;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				704EF57421EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift in Sources */,
 				704EF56421EED1F00083FFCB /* WelcomeViewController.swift in Sources */,
 				704EF56221EED1F00083FFCB /* AppDelegate.swift in Sources */,
 			);

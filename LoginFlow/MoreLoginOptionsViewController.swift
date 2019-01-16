@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MoreLoginOptionsViewController.swift
 //  LoginFlow
 //
 //  Created by Parinha on 1/16/19.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class MoreLoginOptionsViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+
+    // Do any additional setup after loading the view.
   }
   
   override func viewWillAppear(_ animated: Bool) {
-    self.navigationController?.setNavigationBarHidden(true, animated: animated);
+    self.navigationController?.setNavigationBarHidden(false, animated: animated);
   }
 }
-
