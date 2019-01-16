@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7001742921EF242E008B43D5 /* EnterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7001742821EF242E008B43D5 /* EnterPhoneViewController.swift */; };
+		7001742B21EF24BD008B43D5 /* EnterPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7001742A21EF24BD008B43D5 /* EnterPinViewController.swift */; };
 		704EF56221EED1F00083FFCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704EF56121EED1F00083FFCB /* AppDelegate.swift */; };
 		704EF56421EED1F00083FFCB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704EF56321EED1F00083FFCB /* WelcomeViewController.swift */; };
 		704EF56721EED1F00083FFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704EF56521EED1F00083FFCB /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		7001742821EF242E008B43D5 /* EnterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneViewController.swift; sourceTree = "<group>"; };
+		7001742A21EF24BD008B43D5 /* EnterPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinViewController.swift; sourceTree = "<group>"; };
 		704EF55E21EED1F00083FFCB /* LoginFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		704EF56121EED1F00083FFCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		704EF56321EED1F00083FFCB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		7001742721EF23F9008B43D5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7001742A21EF24BD008B43D5 /* EnterPinViewController.swift */,
 				7001742821EF242E008B43D5 /* EnterPhoneViewController.swift */,
 			);
 			path = Controllers;
@@ -152,6 +155,7 @@
 				7001742921EF242E008B43D5 /* EnterPhoneViewController.swift in Sources */,
 				704EF57421EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift in Sources */,
 				704EF56421EED1F00083FFCB /* WelcomeViewController.swift in Sources */,
+				7001742B21EF24BD008B43D5 /* EnterPinViewController.swift in Sources */,
 				704EF56221EED1F00083FFCB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

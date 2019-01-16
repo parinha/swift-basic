@@ -274,6 +274,58 @@ This is a login flow.</string>
             </objects>
             <point key="canvasLocation" x="2634.7826086956525" y="18.75"/>
         </scene>
+        <!--Enter Pin View Controller-->
+        <scene sceneID="cx1-ng-Bbf">
+            <objects>
+                <viewController id="aaO-sk-ZYq" customClass="EnterPinViewController" customModule="LoginFlow" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H9D-MD-ERe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pin" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51J-Zz-JII">
+                                <rect key="frame" x="20" y="158" width="374" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                <color key="textColor" red="0.70307716620000005" green="0.1608241983" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify Pin" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fU-xa-VIv">
+                                <rect key="frame" x="20" y="84" width="374" height="44"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Verification Pin" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CiE-ce-STN">
+                                <rect key="frame" x="20" y="174.5" width="374" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="tbv-od-hyr"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7fU-xa-VIv" firstAttribute="top" secondItem="6I0-j1-Nty" secondAttribute="top" constant="40" id="2xd-mQ-ucF"/>
+                            <constraint firstItem="51J-Zz-JII" firstAttribute="top" secondItem="7fU-xa-VIv" secondAttribute="bottom" constant="30" id="Cog-pd-F4T"/>
+                            <constraint firstItem="51J-Zz-JII" firstAttribute="centerX" secondItem="H9D-MD-ERe" secondAttribute="centerX" id="JT4-em-Vjm"/>
+                            <constraint firstItem="6I0-j1-Nty" firstAttribute="trailing" secondItem="CiE-ce-STN" secondAttribute="trailing" constant="20" id="JnJ-uy-bjg"/>
+                            <constraint firstItem="CiE-ce-STN" firstAttribute="centerX" secondItem="H9D-MD-ERe" secondAttribute="centerX" id="MPs-Pi-RnA"/>
+                            <constraint firstItem="6I0-j1-Nty" firstAttribute="trailing" secondItem="51J-Zz-JII" secondAttribute="trailing" constant="20" id="PbJ-ZS-wZW"/>
+                            <constraint firstItem="51J-Zz-JII" firstAttribute="leading" secondItem="6I0-j1-Nty" secondAttribute="leading" constant="20" id="TPm-4i-yBB"/>
+                            <constraint firstItem="CiE-ce-STN" firstAttribute="top" secondItem="51J-Zz-JII" secondAttribute="bottom" id="dbs-7K-wRf"/>
+                            <constraint firstItem="CiE-ce-STN" firstAttribute="leading" secondItem="6I0-j1-Nty" secondAttribute="leading" constant="20" id="g0i-8P-hkV"/>
+                            <constraint firstItem="7fU-xa-VIv" firstAttribute="leading" secondItem="6I0-j1-Nty" secondAttribute="leading" constant="20" id="phB-fw-sLd"/>
+                            <constraint firstItem="7fU-xa-VIv" firstAttribute="centerX" secondItem="H9D-MD-ERe" secondAttribute="centerX" id="tbR-mh-ozW"/>
+                            <constraint firstItem="6I0-j1-Nty" firstAttribute="trailing" secondItem="7fU-xa-VIv" secondAttribute="trailing" constant="20" id="zfW-Aj-CTQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6I0-j1-Nty"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fMB-HJ-sFN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3568" y="19"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Hbx-20-cQ7">
             <objects>
