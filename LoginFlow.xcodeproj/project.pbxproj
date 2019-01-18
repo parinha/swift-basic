@@ -15,6 +15,7 @@
 		704EF56921EED1F20083FFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704EF56821EED1F20083FFCB /* Assets.xcassets */; };
 		704EF56C21EED1F20083FFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704EF56A21EED1F20083FFCB /* LaunchScreen.storyboard */; };
 		704EF57421EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704EF57321EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift */; };
+		70A5FC9721F1728500387D47 /* CompanyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5FC9621F1728500387D47 /* CompanyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		704EF56B21EED1F20083FFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		704EF56D21EED1F20083FFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		704EF57321EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLoginOptionsViewController.swift; sourceTree = "<group>"; };
+		707E98F721F0297D0032FB5E /* SwiftBasicPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = SwiftBasicPlayground.playground; path = LoginFlow/Views/SwiftBasicPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		70A5FC9621F1728500387D47 /* CompanyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CompanyTableViewController.swift; path = Controllers/CompanyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +72,27 @@
 		704EF56021EED1F00083FFCB /* LoginFlow */ = {
 			isa = PBXGroup;
 			children = (
+				707E98F621F029430032FB5E /* Views */,
 				7001742721EF23F9008B43D5 /* Controllers */,
 				704EF56121EED1F00083FFCB /* AppDelegate.swift */,
 				704EF56321EED1F00083FFCB /* WelcomeViewController.swift */,
 				704EF56521EED1F00083FFCB /* Main.storyboard */,
+				70A5FC9621F1728500387D47 /* CompanyTableViewController.swift */,
 				704EF56821EED1F20083FFCB /* Assets.xcassets */,
 				704EF56A21EED1F20083FFCB /* LaunchScreen.storyboard */,
 				704EF56D21EED1F20083FFCB /* Info.plist */,
 				704EF57321EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift */,
 			);
 			path = LoginFlow;
+			sourceTree = "<group>";
+		};
+		707E98F621F029430032FB5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				707E98F721F0297D0032FB5E /* SwiftBasicPlayground.playground */,
+			);
+			name = Views;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +168,7 @@
 			files = (
 				7001742921EF242E008B43D5 /* EnterPhoneViewController.swift in Sources */,
 				704EF57421EEE0DE0083FFCB /* MoreLoginOptionsViewController.swift in Sources */,
+				70A5FC9721F1728500387D47 /* CompanyTableViewController.swift in Sources */,
 				704EF56421EED1F00083FFCB /* WelcomeViewController.swift in Sources */,
 				7001742B21EF24BD008B43D5 /* EnterPinViewController.swift in Sources */,
 				704EF56221EED1F00083FFCB /* AppDelegate.swift in Sources */,

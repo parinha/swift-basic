@@ -326,12 +326,45 @@ This is a login flow.</string>
                         <viewLayoutGuide key="safeArea" id="6I0-j1-Nty"/>
                     </view>
                     <navigationItem key="navigationItem" id="LEx-If-51b">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="9uP-pH-r1Z"/>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="9uP-pH-r1Z">
+                            <connections>
+                                <segue destination="jvl-8T-dGh" kind="show" id="AeT-E2-WcC"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fMB-HJ-sFN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3568" y="19"/>
+        </scene>
+        <!--Companies-->
+        <scene sceneID="Hvp-XB-fZO">
+            <objects>
+                <tableViewController id="jvl-8T-dGh" customClass="CompanyTableViewController" customModule="LoginFlow" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="k00-4q-mHX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Table Cell" id="lyQ-9h-lYY">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lyQ-9h-lYY" id="M0V-oR-8s2">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="jvl-8T-dGh" id="yHU-ag-leO"/>
+                            <outlet property="delegate" destination="jvl-8T-dGh" id="tjM-i0-xme"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Companies" id="D60-GL-eVp"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s7y-CW-ahF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4477" y="19"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Hbx-20-cQ7">
